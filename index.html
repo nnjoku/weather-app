@@ -10,7 +10,7 @@
   <body>
     <!-- Place entire app inside a class wrapper -->
     <div class="app-container">
-      <h1>WeatherWise</h1>
+      <h2 class="app-title">WeatherWise</h2>
       <!-- Search bar -->
       <section class="search">
         <input type="text" class="city-input" placeholder="Enter a city.." />
@@ -18,13 +18,17 @@
       </section>
 
       <section class="location-details">
-        <h2 class="city"></h2>
+        <h3 class="city"></h3>
         <div class="temperature"></div>
-        <div class="high-or-low"></div>
+        <div class="description"></div>
+        <div class="description">
+          <img class="weather-icon" src="" alt="" />
+          <div class="weather-description"></div>
+        </div>
       </section>
       <section class="weather-details">
-        <img class="weather-icon" src="" alt="" />
-        <div class="weather-description"></div>
+        <div class="high-or-low"></div>
+
         <div class="real-feel"></div>
         <div class="wind-speed"></div>
       </section>

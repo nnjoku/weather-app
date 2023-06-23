@@ -42,7 +42,7 @@ function displayWeatherDetails(data) {
     weatherIcon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
 
     var condition = document.querySelector(".weather-description");
-    condition.innerHTML = (data.weather[0].description.toUpperCase());
+    condition.innerHTML = (data.weather[0].description);
 
     var realFeel = document.querySelector(".real-feel");
     realFeel.innerHTML = `Real Feel: ${Math.round((data.main.feels_like) - 273.15)}°C`;
