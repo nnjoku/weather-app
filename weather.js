@@ -4,7 +4,7 @@
 function getWeatherDetails() {
     // Get input value
     var cityInput = document.querySelector(".city-input").value;
-    var apiKey = "f4a0e7e6b842f610f8abadd1b7b083cd";
+    var apiKey = "";
     var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + cityInput + '&appid=' + apiKey;
 
     // Fetch weather details using apiURL
